@@ -52,6 +52,7 @@ public class ShowMethods {
 					}
 				}
 			}
+			System.out.println("Total Line is :" + lines);
 		} catch (ClassNotFoundException e) {
 			System.out.println("No such class:" + e);
 		}
