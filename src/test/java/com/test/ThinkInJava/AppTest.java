@@ -1,5 +1,7 @@
 package com.test.ThinkInJava;
 
+import com.ThinkingInJava.IO.ProcessControl;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,6 +35,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        ProcessControl.command("dir D:/");
     }
 }
